@@ -1,0 +1,39 @@
+{
+  "name": "@superset-ui/j-plugin-custom",
+  "version": "0.18.25",
+  "description": "Superset Customized Shared Components",
+  "keywords": [
+    "superset",
+    "J"
+  ],
+  "homepage": "https://github.com/gatovolador/superset/tree/master/superset-frontend/plugins/j-plugin-custom#readme",
+  "bugs": {
+    "url": "https://github.com/gatovolador/superset/pulls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatovolador/superset.git",
+    "directory": "superset-frontend/plugins/j-plugin-custom"
+  },
+  "license": "Apache-2.0",
+  "author": "Jeremy Francis",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "dependencies": {
+    "antd": "4.10.3"
+  },
+  "peerDependencies": {
+    "@types/lodash": "^4.17.0",
+    "@types/react": "*",
+    "superset": "^2.0.1",
+    "react": "^16.13.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
